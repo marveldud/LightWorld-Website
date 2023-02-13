@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: merienda;
+    overflow-x: hidden;
+    border-radius: none !important;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20PX;
+    overflow: hidden;
+}
+h1{
+    font-size: 2.2rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    font-size: 0.9rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+                   /* Catalog section Start */
+.header_container{
+    width: 100%;
+}
+.header_image img{
+    width: 100vw;
+    height: 80vh;
+}
+.header_image{
+    opacity: 0.6;
+}
+.catalog_overlay{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.catalog_content{
+    margin-top: 2rem;
+}
+.catalog_content h1{
+    font-weight: bold;
+}
+
+
+                   /* Catalog section End */
+                    /* Catalog Card Section start */
+.catalog-cards{
+    margin-top: 3rem !important;
+}
+.card{
+  transition: 0.7s;
+  padding: 20px 30px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.catalog-card-title{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.catalog-card-text{
+    font-size: 0.8rem;
+}
+                    /* Catalog Card Section end */
+
+                    /* Gallery Section Start */
+
+.gallery_card{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.gallery_card img:hover{
+    transform: scale(1.1);
+}
+                    /* Gallery Section end */
+
+                    /* About Us sTART */
+    
+.about-button{
+    background-color: #00b1ff ;
+    color: black;
+}
+                    /* About Us end */
+
+                    /* Contact Us Start */
+
+                    /* Contact Us end */
+
+
+           /* ResNavb Start */
+
+.menu-link a{
+    color: black;
+}
+.signin_button a{
+    color: black;
+}
+.main_nav{
+    width: 100%;
+    /* background-color: red; */
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+}
+.main_nav_logo img{
+    width: 40%;
+}
+.main_nav_logo{
+grid-column: 2/3;
+height: 5rem;
+display: grid;
+justify-content: start;
+align-items: center;
+}
+.menu-link{
+    grid-column: 3/4;
+}
+.menu-link ul{
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signin_button{
+    grid-column: 4/5;
+}
+.signin_button ul{
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 3fr repeat(3, 2fr);
+    align-items: center;
+}
+.signin_button ul li:first-child{
+    grid-column:2;
+}
+
+   @media (max-width:998px){
+    .main_nav{
+        grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    }
+    .menu-link,
+    .signin_button{
+        display: none;
+    }
+   }
+
+           /* ResNavb End */
+

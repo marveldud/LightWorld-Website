@@ -1,0 +1,256 @@
+@media only screen and (max-width:1200px) {
+    /* Navbar */
+   .navbar_btn{
+        margin-right: 2rem;
+   }
+   .navbar_btn i{
+    font-size: 1.3rem !important;
+   }
+   .navbar_btn a:nth-child(3){
+    padding: 10px 20px;
+   }
+   .menu-links ul{
+    margin-right: 2rem;
+   }
+    .logo img{
+        width: 250px;
+     }
+
+    /* Carousel */
+   .carousel_text h1{
+    font-size: 1.7rem;
+   }
+   .carousel_text h3{
+    font-size: 1rem;
+   }
+   .carousel-button a{
+    padding: 10px 20px;
+    font-size: 0.8rem;
+   }
+   /* About Us */
+   .about-card-text h1{
+       font-size: 1.2rem;
+   }
+   .about-card-text p{
+    font-size: 0.7rem;
+     }
+    
+}
+
+
+@media only screen and (max-width:992px) {
+    /* Navbar */
+    .menu-links,
+    .navbar_btn
+    {
+        display: none;
+    }
+    
+    /* .navbar_btn a:nth-child(3){
+        padding: 8px 16px;
+    } */
+    .logo img{
+       max-width: 100px;
+     } 
+     /* carousel */
+     .carousel-button a{
+        position: absolute;
+        bottom:50%;
+        left: 45%;
+     }
+
+     /* top category */
+     .card{
+        padding: 5px 10px;
+     }
+       /* footer */
+     .f-about h3{
+        font-size: 1rem;
+     }
+     .f-about p{
+        font-size: 0.8rem;
+     }
+     .f-product h3{
+        font-size: 1rem;
+     }
+     .f-product ul{
+        font-size: 0.8rem;
+     }
+     .f-usefulllinks h3{
+        font-size: 1rem;
+     }
+     .f-usefulllinks ul{
+        font-size: 0.8rem;
+     }
+     .f-Contact{
+        margin-top: 1.3rem;
+     }
+     .f-Contact h3{
+        font-size: 1rem;
+     }
+     .f-Contact ul{
+        font-size: 0.8rem;
+     }
+     
+    
+
+}
+@media(max-width:768px) {
+      .carousel-caption{
+        width: 60%; 
+        position: absolute;
+        top: 25%;
+        left: 20%; 
+      }
+      .carousel-caption h1{
+        font-size: 1.3rem;
+      }
+      .carousel-button {
+        display: none;
+      }
+      .card-section{
+         max-width: 80%;
+         align-items: center;
+      }
+      .payment-method img{
+        margin-left: 8rem;
+      }
+
+      
+     
+}
+
+@media only screen and (max-width:479px) {
+    .cate-heading h1{
+        font-size: 1.7rem;
+    }
+    .toggle-button i{
+        color: black;
+        position: absolute;
+        right: 1rem;
+        top: 16%;
+    }
+    .banner_link {
+        margin-left: 3.4rem !important;
+    }
+    .carousel-caption{
+        position: absolute;
+        left:20%;
+        width: 50vw;
+    }
+    .carousel-caption h3{
+        display: none;
+    }
+    .carousel-caption h1{
+        font-size: 1rem;
+      }
+      .carousel-button {
+        display: none;
+      }
+    .text{
+        text-align: center;
+        flex-direction: column;
+    }
+    .text{
+        line-height: 1px;
+    }
+    .banner-text h5{
+        margin-right: 2.5rem;
+        margin-top: 1rem;
+    }
+    .top-banner{
+        height: 5rem;
+    }
+    .banner_link {
+        margin-left: 1rem;
+    } 
+    .menu-links,
+    .navbar_btn
+    {
+        display: none;
+    }
+     .logo img{
+        width: 250px;
+     }
+     .main-nav{
+        height: 5rem;
+     }
+    .carousel-caption h1 h3{
+        display: none;
+    }
+    .carousel-button a{
+        display: none;
+    }
+    .design-section{
+        flex-direction: column;
+    }
+    .design-section .right{
+         text-align: center;
+    }
+    .right p{
+        margin-left:2rem ;
+    }
+    .right a{
+        width: 50%;
+        font-size: 1rem;
+        margin-left: 2.2rem;
+    }
+    .second-design-section{
+        flex-direction: column;
+    }
+    .second-design-section .right{
+        text-align: center;
+   }
+   .left p{
+       margin-left:2.3rem ;
+   }
+   .left a{
+       width: 50%;
+       font-size: 1rem;
+       margin-left: 2.2rem;
+   }
+   .company_container{
+    background-color: #fff;
+   }
+   .company_logo img{
+    padding: 20px;
+   }
+   .promotion-body p{
+    margin-left: 1.5rem;
+   }
+   .payment-method img{
+    align-items: center !important;
+    margin-left: 6rem;
+   }
+   .footer_links .f-about
+   {
+    text-align: center;
+    margin-left: 4rem;
+   }
+   .footer_links .f-product
+   {
+    text-align: center;
+    margin-left: 5rem;
+   }
+
+   .footer_links .f-usefulllinks
+   {
+    text-align: center;
+    margin-left: 4rem;
+   }
+   .f-usefulllinks{
+    margin-right: 3rem;
+   }
+   .footer_links .f-Contact
+   {
+    text-align: center;
+   }
+   .f-Contact{
+    margin-right: 2rem;
+   }
+   .sub_footer{
+    margin-left: 4rem;
+   }
+
+   
+}
